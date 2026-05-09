@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AquaAlert Ethiopia</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <nav>
+        <h1>AquaAlert Ethiopia</h1>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Report</a></li>
+            <li><a href="#">Tips</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h2>Report Water Shortages Easily</h2>
+            <p>
+                Helping Ethiopian communities report water supply problems quickly and efficiently.
+            </p>
+            <button>Report Now</button>
+        </div>
+    </section>
+
+    <section class="report-section">
+        <h2>Water Problem Report Form</h2>
+
+        <form id="reportForm">
+
+            <input type="text" placeholder="Full Name" required>
+
+            <input type="text" placeholder="Area / City" required>
+
+            <select required>
+                <option value="">Select Problem Type</option>
+                <option>No Water Supply</option>
+                <option>Dirty Water</option>
+                <option>Pipe Leakage</option>
+                <option>Water Interruption</option>
+            </select>
+
+            <textarea placeholder="Describe the problem..." required></textarea>
+
+            <button type="submit">Submit Report</button>
+
+        </form>
+
+        <p id="message"></p>
+    </section>
+
+    <section class="tips">
+
+        <h2>Water Saving Tips</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Fix Leaks</h3>
+                <p>Repair leaking taps and pipes to avoid wasting water.</p>
+            </div>
+
+            <div class="card">
+                <h3>Use Water Carefully</h3>
+                <p>Reduce unnecessary water usage during shortages.</p>
+            </div>
+
+            <div class="card">
+                <h3>Report Problems</h3>
+                <p>Help your community by reporting water interruptions quickly.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <p>© 2026 AquaAlert Ethiopia | Community Water Awareness Platform</p>
+    </footer>
+
+    <script src="index.js"></script>
+    
+
+</body>
+</html>
